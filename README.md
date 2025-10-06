@@ -25,11 +25,26 @@
 
 ## 可视化分析
 系统生成五种专业图表：
+
 1. **路径可视化图** - 在[-500,500]坐标系中显示城市分布和最优路径
+
+![路径可视化图](https://github.com/bhadaljf/TSP-Genetic-Algorithm/raw/69a34ea955885e5994267418c8780b7f942ddaa9/images/function2-image/TSP_function_2_n29_map.png)
+
 2. **收敛曲线图** - 展示算法迭代过程中的优化趋势
+
+![收敛曲线图](https://github.com/bhadaljf/TSP-Genetic-Algorithm/raw/69a34ea955885e5994267418c8780b7f942ddaa9/images/function2-image/Convergence_Curve.png)
+
 3. **最优距离柱状图** - 比较不同城市数量的平均求解质量
+
+![最优距离柱状图](https://github.com/bhadaljf/TSP-Genetic-Algorithm/raw/69a34ea955885e5994267418c8780b7f942ddaa9/images/function3-image/Optimal_Distance_vs_N_Bar_Chart.png)
+
 4. **性能分析双轴图** - 同时显示路径长度和运行时间的对比趋势
+
+![性能分析双轴图](https://github.com/bhadaljf/TSP-Genetic-Algorithm/raw/69a34ea955885e5994267418c8780b7f942ddaa9/images/function3-image/Performance_Analysis_Dual_Axis.png)
+
 5. **箱线分布图** - 统计分析多次实验的结果分布情况
+
+![箱线分布图](https://github.com/bhadaljf/TSP-Genetic-Algorithm/raw/69a34ea955885e5994267418c8780b7f942ddaa9/images/function3-image/Box_Plot_Optimal_Distance_Distribution.png)
 
 ## 使用流程
 1. 运行`python TSP.py`启动程序
